@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="../styles/chess.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <title>Chess</title>
+    </head>
+    <body style="background-color:rgb(48, 45, 45);">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2" style="background-color: rgb(32, 32, 32);">
+                    <div class="flex-container" style=" position: -webkit-sticky; position: sticky; top: 0;">
+                        <img class="logo" src="../images/logo.jpg" alt="logo">
+                        <div class="flex-container flex1">
+                            <img class="home" src="../images/home.png" alt="home">
+                            <h6 style="color: rgb(37, 37, 37);">"</h6>
+                            <h6 class="sidebarText">Home</h6>
+                        </div>
+                        <div class="flex1">
+                            <img class="play" src="../images/play.png" alt="play">
+                            <h6 style="color: rgb(37, 37, 37);">"</h6>
+                            <h6 class="sidebarText">Play</h6>
+                        </div>
+                        <div class="flex1">
+                            <img class="puzzle" src="../images/puzzle.png" alt="play">
+                            <h6 style="color: rgb(37, 37, 37);">"</h6>
+                            <h6 class="sidebarText">Puzzle</h6>
+                        </div>
+                        <div class="flex1">
+                            <img class="learn" src="../images/learn.png" alt="play">
+                            <h6 style="color: rgb(37, 37, 37);">"</h6>
+                            <h6 class="sidebarText">Learn</h6>
+                        </div>
+                        <div class="flex1">
+                            <img class="today" src="../images/today.png" alt="play">
+                            <h6 style="color: rgb(37, 37, 37);">"</h6>
+                            <h6 class="sidebarText">Today</h6>
+                        </div>
+                        <div class="flex1">
+                            <img class="connect" src="../images/connect.png" alt="connect">
+                            <h6 style="color: rgb(37, 37, 37);">"</h6>
+                            <h6 class="sidebarText">Connect</h6>
+                        </div>
+                        <div class="flex1">
+                            <img class="more" src="../images/more.png" alt="more">
+                            <h6 style="color: rgb(37, 37, 37);">"</h6>
+                            <h6 class="sidebarText">More</h6>
+                        </div>
+                            <img class="trial" src="../images/trial.png" alt="trial">
+                            <nav class="navbar navbar-dark bg-dark">
+                                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                </form>
+                            </nav>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="flex3">
+                        <div class="flex-container flex2">
+                            <img class="playButton" src="../images/playButton.png" alt="play">
+                            <h5 class="iconText" style="padding-left: 80px;">New Game</h5>
+                        </div>
+                        <div class="flex-container flex2">
+                            <img class="puzzleButton" src="../images/puzzle.png" alt="puzzle">
+                            <h5 class="iconText" style="padding-left: 90px;">Puzzles</h5>
+                        </div>
+                        <div class="flex-container flex2">
+                            <img class="lessonButton" src="../images/learn.png" alt="lessons">
+                            <h5 class="iconText" style="padding-left: 90px;">Lesson</h5>
+                        </div>                    
+                        <div class="flex-container flex2">
+                            <img class="compButton" src="../images/comp.png" alt="challenge">
+                            <h5 class="iconText">vs Computer</h5>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-top: 80px;">
+                        <table class="table table-hover table-dark" style="background-color: rgb(39, 39, 39);">
+                            <tr style="color: aliceblue;">
+                                <th style="font-size: larger;">Completed Games</th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th>></th>
+                            </tr>
+                            <tr style="color: aliceblue;">
+                                <th>Players</th>
+                                <th>Result</th>
+                                <th>Accuracy</th>
+                                <th>Moves</th>
+                                <th>Date</th>
+                            </tr>
+                            <tr style="color: aliceblue;">
+                                <td>joyojoy (491) <br>kanscerr(575)</td>
+                                <td>0<br>1</td>
+                                <td>58.2 <br>71.5</td>
+                                <td>46</td>
+                                <td>Feb 8, 2022</td>
+                            </tr>
+                            <tr style="color: aliceblue;">
+                                <td>kanscerr (575) <br>Rughk(612)</td>
+                                <td>0 <br> 1</td>
+                                <td>66.5 <br> 55</td>
+                                <td>21</td>
+                                <td>Feb 8, 2022</td>
+                            </tr>
+                            <tr style="color: aliceblue;">
+                                <td>Butterscotch0 (979) <br>kanscerr (575)</td>
+                                <td>1<br>0</td>
+                                <td>64.1 <br>87.8</td>
+                                <td>52</td>
+                                <td>Feb 7, 2022</td>
+                            </tr>
+                            <tr style="color: aliceblue;">
+                                <td>kanscerr (575) <br>Butterscotch (979)</td>
+                                <td>1<br>0</td>
+                                <td>22.5 <br>17.1</td>
+                                <td>38</td>
+                                <td>Feb 7, 2022</td>
+                            </tr>
+                            <tr style="color: aliceblue;">
+                                <td>Butterscotch (979)<br>kanscerr (575)</td>
+                                <td>0 <br>1</td>
+                                <td>78.9 <br> 58.1</td>
+                                <td>17</td>
+                                <td>Feb 6, 2022</td>
+                            </tr>
+                        </table>
+                        <hr class="break">
+                        <h5 style="color:aliceblue; margin-top: 50px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: larger;"><b>Stats</b></h5>
+                        <img class="stats" src="../images/stats.png" alt="stats">
+                        <table class="table table-hover table-dark" style="background-color: rgb(39, 39, 39); padding-top: 200px;">
+                            <tr style="color: aliceblue;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: large;">
+                                <td>Games</td>
+                                <td>344</td>
+                            </tr>
+                            <tr style="color: aliceblue;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: large;">
+                                <td>Puzzle</td>
+                                <td>7</td>
+                            </tr>
+                            <tr style="color: aliceblue;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: large;">
+                                <td>Rapid</td>
+                                <td>575</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="profile">
+                        <img class="profImg" style="margin-left: 25px;" src="../images/profile.png" alt="profile">
+                        <div class="flex4">
+                            <h5 class="username">kanscerr</h5>
+                            <h6 style="color:rgb(113, 114, 114); font-size: small; margin-left: 5px;">Profile</h6>
+                            <h6 style="color:rgb(113, 114, 114); font-size: small; margin-left: 5px;">Home settings</h6>
+                        </div>
+                    </div>
+                    <div class="trophy" style="background-color: rgb(41, 40, 40);">
+                        <h5 style="color:aliceblue; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Bronze</h5>
+                        <img src="../images/trophy.png" alt="trophy">
+                        <h5 style="color: aliceblue;">15 <small style="color: rgb(155, 104, 41);">#12</small></h5>
+                        <h6 style="text-align: center; color: aliceblue;">My Division: BpCLvqQmL</h6>
+                        <h6 style="text-align: left; color: aliceblue; font-weight: lighter; padding-left: 10px;">Trophy History</h6>
+                        <hr class="break">
+                        <table class="table-hover">
+                            <th>
+                                <td>date</td>
+                                <td>rank</td>
+                                <td>number</td>
+                                <td>code</td>
+                            </th>
+                            <tr style="color: rgb(162, 164, 167); font-weight: lighter;">
+                                <td>Feb, 07</td>
+                                <td><b>#7</b></td>
+                                <td>75</td>
+                                <td>S2KEVRMTKR</td>  
+                            </tr>
+                            <tr style="color: rgb(162, 164, 167); font-weight: lighter;">
+                                <td>Jan, 31</td>
+                                <td><b>#28</b></td>
+                                <td>0</td>
+                                <td>SPRJXPEX6</td>  
+                            </tr>
+                            <tr style="color: rgb(162, 164, 167); font-weight: lighter;">
+                                <td>Jan, 24</td>
+                                <td><b>#37</b></td>
+                                <td>0</td>
+                                <td>SZMGAXD5Y</td>  
+                            </tr>
+                            <tr style="color: rgb(162, 164, 167); font-weight: lighter;">
+                                <td>Jan, 17</td>
+                                <td><b>#18</b></td>
+                                <td>110</td>
+                                <td>S2RYNZOMJN</td>  
+                            </tr>
+                            <tr style="color: rgb(162, 164, 167); font-weight: lighter;">
+                                <td>Jan, 10</td>
+                                <td><b>#28</b></td>
+                                <td>90</td>
+                                <td>S2GMEXKUEI</td>  
+                            </tr>
+                            <tr style="color: rgb(162, 164, 167); font-weight: lighter;">
+                                <td>Jan, 03</td>
+                                <td><b>#6</b></td>
+                                <td>115</td>
+                                <td style="color: rgb(150, 112, 15);">WB9Z5HRFX</td>  
+                            </tr>
+                            <tr style="color: rgb(162, 164, 167); font-weight: lighter;">
+                                <td>Dec, 27</td>
+                                <td><b>#21</b></td>
+                                <td>15</td>
+                                <td style="color: rgb(150, 112, 15); ">W35SVMC1CA</td>  
+                            </tr>
+                        </table>
+                        <hr class="break" style="margin-top: 35px;">
+                        <div class="friends">
+                            <h6 style="font-weight: bolder; color: aliceblue; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Friends-</h6>
+                            <img class="friendProf" src="../images/profile.png" alt="friends">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

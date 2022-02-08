@@ -1,0 +1,156 @@
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+ .flex1{
+    display: flex;
+    flex-direction: row;
+ }
+ .flex2{
+    display: flex;
+    flex-direction: column;
+ }
+ .flex3{
+    display: flex;
+    flex-direction: row;
+ }
+ .flex4{
+    display: flex;
+    flex-direction: column;
+ }
+.text{
+    color: aliceblue;
+}
+.logo{
+    width: 120px;    
+}
+.sidebarText{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:700; 
+    padding-top: 20px;
+    margin-top: 5px;
+}
+.home{
+    width: 40px;
+    height: 55px;
+    padding-top: 20px;
+}
+.play{
+    width: 40px;
+    height: 55px;
+    padding-top: 20px;
+}
+.puzzle{
+    width: 40px;
+    height: 55px;
+    padding-top: 20px;
+}
+.learn{
+    width: 40px;
+    height: 55px;
+    padding-top: 20px;
+}
+.today{
+    width: 40px;
+    height: 55px;
+    padding-top: 20px;
+}
+.play{
+    width: 40px;
+    height: 55px;
+    padding-top: 20px;
+}
+.more{
+    width: 40px;
+    height: 55px;
+    padding-top: 20px;
+}
+.connect{
+    width: 40px;
+    height: 55px;
+    padding-top: 20px;
+}
+.trial{
+    width: 120px;
+    height: 60px;
+    padding-top: 5px;
+}
+.search input{
+    width: 20px;
+}
+.iconText{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size:medium;
+    padding-top: 10px;
+    padding-left: 70px;
+}
+.playButton{
+    background-color: rgb(32, 32, 32);
+    width: 140px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.puzzleButton{
+    background-color: rgb(32, 32, 32);
+    width: 140px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.lessonButton{
+    background-color: rgb(32, 32, 32);
+    width: 140px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.compButton{
+    background-color: rgb(32, 32, 32);
+    width: 140px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+th{
+    font-size: smaller;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.username{
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: large;
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.trophy{
+    margin-top: 150px;
+    text-align: center;
+}
+hr.break{
+    border-top: 1px solid rgb(122, 121, 121);
+}
+.stats{
+    width: 675px;
+    height: 200px;
+}
+.friends{
+   
+    margin-top: 80px;
+    margin-left: 5px;
+    text-align: left;
+}
+.friendProf{
+    width: 50px;
+    height: 50px;
+}
