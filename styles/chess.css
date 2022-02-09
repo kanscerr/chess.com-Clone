@@ -13,6 +13,8 @@
  .flex3{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 30px;
  }
  .flex4{
     display: flex;
@@ -26,7 +28,7 @@
 }
 .sidebarText{
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:  -apple-system, BlinkMacSystemFont,Segoe UI,system-ui,Helvetica,Arial,sans-serif;
     font-weight:700; 
     padding-top: 20px;
     margin-top: 5px;
@@ -81,39 +83,36 @@
 }
 .iconText{
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:  -apple-system,BlinkMacSystemFont,Segoe UI,system-ui,Helvetica,Arial,sans-serif;
     font-weight: bolder;
     font-size:medium;
     padding-top: 10px;
-    padding-left: 70px;
 }
 .playButton{
     background-color: rgb(32, 32, 32);
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     margin-top: 20px;
-    margin-left: 40px;
 }
 .puzzleButton{
     background-color: rgb(32, 32, 32);
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     margin-top: 20px;
-    margin-left: 40px;
 }
 .lessonButton{
     background-color: rgb(32, 32, 32);
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 .compButton{
     background-color: rgb(32, 32, 32);
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 th{
     font-size: smaller;
@@ -124,6 +123,7 @@ th{
     width: 100px;
     height: 100px;
     margin-top: 20px;
+    margin-left: 20px;
 }
 .username{
     color: aliceblue;
@@ -131,26 +131,39 @@ th{
     margin-left: 5px;
     font-size: large;
     font-weight: 900;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,system-ui,Helvetica,Arial,sans-serif;
 }
 .trophy{
-    margin-top: 150px;
+    margin-top: 155px;
+    padding-top: 10px;
     text-align: center;
+    margin-left: 20px;
 }
 hr.break{
     border-top: 1px solid rgb(122, 121, 121);
+    padding-bottom: 10px;
 }
 .stats{
-    width: 675px;
+    width: 100%;
     height: 200px;
 }
 .friends{
-   
-    margin-top: 80px;
-    margin-left: 5px;
+    margin-top: 100px;
+    margin-left: 20px;
     text-align: left;
+    padding-bottom: 20px; 
+    font-weight: 900; 
+    font-size: larger; 
+    color:rgb(200, 201, 202); 
+    background-color: rgb(41, 40, 40); 
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,system-ui,Helvetica,Arial,sans-serif;
 }
-.friendProf{
+.frenProf{
     width: 50px;
     height: 50px;
+}
+.btn{
+    color: aliceblue;
+    margin-top: 20px;
+    width: 70px;
 }
