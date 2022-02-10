@@ -13,7 +13,6 @@
  .flex3{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     gap: 10px;
  }
  .flex4{
@@ -106,14 +105,12 @@
     width: 120px;
     height: 120px;
     margin-top: 20px;
-    margin-left: 10px;
 }
 .compButton{
     background-color: rgb(32, 32, 32);
     width: 120x;
     height: 120px;
     margin-top: 20px;
-    margin-left: 10px;
 }
 th{
     font-size: smaller;
