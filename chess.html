@@ -7,149 +7,179 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <title>Chess</title>
     </head>
-    <body style="background-color:rgb(48, 45, 45); width: 1200px;">
+    <body style="background-color:rgb(48, 45, 45);">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-2 d-none d-lg-block d-xs-none" style="background-color: rgb(41, 40, 40);">
-                    <div class="flex-container" style=" position: -webkit-sticky; position: sticky; top: 0;">
-                        <img class="logo" src="images/logo.jpg" alt="logo">
-                        <div class="flex-container flex1">
-                            <img class="home" src="images/home.png" alt="home">
+                <div class="col-lg-2 d-none d-lg-block d-xs-none" style="background-color: rgb(39, 37, 34);">
+                    <div class="d-flex flex-column" style=" position: -webkit-sticky; position: sticky; top: 0;">
+                        <img class="logo" src="../images/logo.png" alt="logo">
+                        <div class="d-flex flex-row options">
+                            <img class="sidebarImg" src="../images/home.png" alt="home">
                             <h6 class="sidebarText">Home</h6>
                         </div>
-                        <div class="flex1">
-                            <img class="play" src="images/play.png" alt="play">
+                        <div class="d-flex flex-row options">
+                            <img class="sidebarImg" src="../images/play.png" alt="home">
                             <h6 class="sidebarText">Play</h6>
                         </div>
-                        <div class="flex1">
-                            <img class="puzzle" src="images/puzzle.png" alt="play">
-                            <h6 class="sidebarText">Puzzle</h6>
-                        </div>
-                        <div class="flex1">
-                            <img class="learn" src="images/learn.png" alt="play">
+                        <div class="d-flex flex-row options">
+                            <img class="sidebarImg" src="../images/learn.png" alt="home">
                             <h6 class="sidebarText">Learn</h6>
                         </div>
-                        <div class="flex1">
-                            <img class="today" src="images/today.png" alt="play">
+                        <div class="d-flex flex-row options">
+                            <img class="sidebarImg" src="../images/today.png" alt="home">
                             <h6 class="sidebarText">Today</h6>
                         </div>
-                        <div class="flex1">
-                            <img class="connect" src="images/connect.png" alt="connect">
+                        <div class="d-flex flex-row options">
+                            <img class="sidebarImg" src="../images/connect.png" alt="home">
                             <h6 class="sidebarText">Connect</h6>
                         </div>
-                        <div class="flex1">
-                            <img class="more" src="images/more.png" alt="more">
-                            <h6 style="color: rgb(37, 37, 37);">"</h6>
+                        <div class="d-flex flex-row options">
+                            <img class="sidebarImg" src="../images/more.png" alt="home">
                             <h6 class="sidebarText">More</h6>
                         </div>
-                            <img class="trial" src="images/trial.png" alt="trial">
-                            <nav class="navbar navbar-dark bg-dark">
-                                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                                </form>
+                        <div class="d-flex flex-row options">
+                            <img class="sidebarImg" src="../images/freeTrial.png" alt="home" style="height: 40px; width: 40px; margin-left: -5px;">
+                            <h6 class="sidebarText" style="color: rgb(82, 176, 219); margin-left: 5px;">Free Trial</h6>
+                        </div>
+                            <nav class="navbar">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="height: 30px; margin-left: -10px; background-color: rgb(49, 46, 43);"></form>
                             </nav>
+                        <div class="d-flex flex-row options">
+                            <img class="sidebarImg" src="../images/light.png" alt="light">
+                            <h6 class="sidebarText text-muted">Light UI</h6>
+                        </div>
+                        <div class="d-flex flex-row options">
+                            <img class="sidebarImg" src="../images/collapse.png" alt="collapse">
+                            <h6 class="sidebarText text-muted">Collapse</h6>
+                        </div>
+                        <div class="d-flex flex-row options">
+                            <img class="sidebarImg" src="../images/setting.png" alt="setting">
+                            <h6 class="sidebarText text-muted">Setting</h6>
+                        </div>
+                        <div class="d-flex flex-row options">
+                            <img class="sidebarImg" src="../images/help.png" alt="help">
+                            <h6 class="sidebarText text-muted">Help</h6>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-7 col-sm-12">
-                    <div class="flex3">
-                        <button class="btn btn-block" style="background-color: rgb(32, 32, 32);"><img class="playButton" src="images/playButton.png" alt="play"><h4 class="iconText">New Game</h4></button>
-                        <button class="btn btn-block" style="background-color: rgb(32, 32, 32);"><img class="puzzleButton" src="images/puzzle.png" alt="puzzle"><h4 class="iconText">Puzzles</h4></button>
-                        <button class="btn btn-block" style="background-color: rgb(32, 32, 32);"><img class="lessonButton" src="images/learn.png" alt="lessons"><h4 class="iconText">Lesson</h4></button>                   
-                        <button class="btn btn-block" style="background-color: rgb(32, 32, 32);"><img class="compButton" src="images/comp.png" alt="challenge"><h4 class="iconText">vs Computer</h4></button>
+                <div class="col-lg-7">
+                    <div class="flex1">
+                        <button class="btn btn-block" style="background-color: rgb(39, 37, 34); margin-top: 20px;">
+                            <div class="buttons">
+                                <img class="playButton" src="images/playButton.png" alt="play">
+                                <h4 class="iconText">New Game</h4>
+                            </div>
+                           </button>
+                        <button class="btn btn-block" style="background-color: rgb(39, 37, 34); margin-top: 20px;">
+                            <div class="buttons">
+                                <img class="puzzleButton" src="images/puzzle.png" alt="puzzle">
+                                <h4 class="iconText">Puzzles</h4>
+                            </div>
+                        </button>
+                        <button class="btn btn-block" style="background-color: rgb(39, 37, 34); margin-top: 20px;">
+                            <div class="buttons">
+                                <img class="lessonButton" src="images/learn.png" alt="lessons">
+                                <h4 class="iconText">Lesson</h4>
+                            </div>
+                        </button>                   
+                        <button class="btn btn-block" style="background-color: rgb(39, 37, 34); margin-top: 20px;">
+                            <div class="buttons">
+                                <img class="compButton" src="images/comp.png" alt="challenge">
+                                <h4 class="iconText">vs Computer</h4>
+                            </div>
+                        </button>
                     </div>
-                    <div class="table-responsive-lg flex2" style="width:flex3; margin-top: 80px;">
-                        <table class="table table-hover table-dark" style="background-color: rgb(39, 39, 39);">
-                            <tr style="color: gainsboro; font-size: large; font-weight: bold;">
-                                <th>Completed Games</th>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                                <th>></th>
-                            </tr>
-                            <tr style="color: gainsboro;">
-                                <th>Players</th>
-                                <th>Result</th>
-                                <th>Accuracy</th>
-                                <th>Moves</th>
-                                <th>Date</th>
-                            </tr>
-                            <tr style="color: gainsboro;">
-                                <td>joyojoy (491) <br>kanscerr(575)</td>
-                                <td>0<br>1</td>
-                                <td>58.2 <br>71.5</td>
-                                <td>46</td>
-                                <td>Feb 8, 2022</td>
-                            </tr>
-                            <tr style="color: gainsboro;">
-                                <td>kanscerr (575) <br>Rughk(612)</td>
-                                <td>0 <br> 1</td>
-                                <td>66.5 <br> 55</td>
-                                <td>21</td>
-                                <td>Feb 8, 2022</td>
-                            </tr>
-                            <tr style="color: gainsboro;">
-                                <td>Butterscotch0 (979) <br>kanscerr (575)</td>
-                                <td>1<br>0</td>
-                                <td>64.1 <br>87.8</td>
-                                <td>52</td>
-                                <td>Feb 7, 2022</td>
-                            </tr>
-                            <tr style="color: gainsboro;">
-                                <td>kanscerr (575) <br>Butterscotch (979)</td>
-                                <td>1<br>0</td>
-                                <td>22.5 <br>17.1</td>
-                                <td>38</td>
-                                <td>Feb 7, 2022</td>
-                            </tr>
-                            <tr style="color: gainsboro;">
-                                <td>Butterscotch (979)<br>kanscerr (575)</td>
-                                <td>0 <br>1</td>
-                                <td>78.9 <br> 58.1</td>
-                                <td>17</td>
-                                <td>Feb 6, 2022</td>
-                            </tr>
-                        </table>
-                        <hr class="break">
-                        <h5 style="color:gainsboro; margin-top: 50px; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,system-ui,Helvetica,Arial,sans-serif;; font-size: larger;"><b>Stats</b></h5>
-                        <img class="stats" src="images/stats.png" alt="stats">
-                        <table class="table" style="width:fit-content;background-color:rgb(41, 40, 40);">
-                        </table>
-                        <table class="table table-hover table-dark" style="background-color: rgb(39, 39, 39); padding-top: 200px;">
-                            <tr>
-                                <th style="font-weight: bolder; font-size: large; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(12, 167, 12);">Rapid</th>
-                                <th style="font-weight: bolder; font-size: large; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color:gainsboro ;">592</th>
-                            </tr>
-                            <tr>
-                                <td style="color: gainsboro;">Last 30 Days</td>
-                                <td style="font-weight: bolder; color: rgb(12, 167, 12);">&uarr;139</td>
-                            </tr>
-                            <tr>
-                                <td style="color: gainsboro;">Highest</td>
-                                <td style="font-weight: bolder; color:rgb(12, 167, 12);">800 <b style="color:gainsboro">(Nov 11, 2021)</b><td>
-                            </tr>
-                            <tr>
-                                <td style="color: gainsboro;">Games</td>
-                                <td style="font-weight: bolder; color: gainsboro;">339</td> 
-                            </tr>
-                            <tr>
-                                <td style="color: gainsboro;">W/L/D</td>
-                                <td style="font-weight: bolder; color:rgb(12, 167, 12);"><b style="color: rgb(13, 172, 13);">143 W&nbsp;</b><b style="color:red;">169 L&nbsp;</b><b style="color:gainsboro">27 D</b></td>
-                            </tr>
-                            <tr style="color: gainsboro;font-family: -apple-system,BlinkMacSystemFont,Segoe UI,system-ui,Helvetica,Arial,sans-serif;">
-                                <td>Games</td>
-                                <td>344</td>
-                            </tr>
-                            <tr style="color: gainsboro;font-family:  -apple-system,BlinkMacSystemFont,Segoe UI,system-ui,Helvetica,Arial,sans-serif;">
-                                <td>Puzzle</td>
-                                <td>7</td>
-                            </tr>
-                            <tr style="color: gainsboro;font-family:  -apple-system,BlinkMacSystemFont,Segoe UI,system-ui,Helvetica,Arial,sans-serif;">
-                                <td>Rapid</td>
-                                <td>575</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-12">
+                   <table class="table table-dark" style="margin:auto; background-color: rgb(39, 37, 34); margin-top: 100px;">
+                       <tr style="color: gainsboro; font-size: large; font-weight: bold;">
+                           <th>Completed Games</th>
+                           <th></th>
+                           <th></th>
+                           <th></th>
+                           <th>></th>
+                       </tr>
+                       <tr style="color: gainsboro;">
+                            <th>Players</th>
+                            <th>Result</th>
+                            <th>Accuracy</th>
+                            <th>Moves</th>
+                            <th>Date</th>
+                       </tr>
+                        <tr style="color: gainsboro;">
+                            <td>Portal6969 (583) <br>kanscerr(600)</td>
+                            <td>0<br>1</td>
+                            <td>58.2 <br>71.5</td>
+                            <td>33</td>
+                            <td>Feb 12, 2022</td>
+                        </tr>
+                        <tr style="color: gainsboro;">
+                            <td>djockss (601) <br>kanscerr (592)</td>
+                            <td>0 <br> 1</td>
+                            <td>66.5 <br> 55</td>
+                            <td>5</td>
+                            <td>Feb 12, 2022</td>
+                        </tr>
+                        <tr style="color: gainsboro;">
+                            <td>Butterscotch0 (979) <br>kanscerr (583)</td>
+                            <td>1<br>0</td>
+                            <td>64.1 <br>87.8</td>
+                            <td>71</td>
+                            <td>Feb 11, 2022</td>
+                        </tr>
+                        <tr style="color: gainsboro;">
+                            <td>kanscerr (583) <br>TonyGamm423 (565)</td>
+                            <td>0<br>1</td>
+                            <td>22.5 <br>17.1</td>
+                            <td>20</td>
+                            <td>Feb 11, 2022</td>
+                        </tr>
+                        <tr style="color: gainsboro;">
+                            <td>kanscerr (592)<br>Butterscotch (979)</td>
+                            <td>0 <br>1</td>
+                            <td>78.9 <br> 58.1</td>
+                            <td>4</td>
+                            <td>Feb 10, 2022</td>
+                        </tr>
+                       </tr>
+                   </table>
+                   <hr class="break">
+                   <h5 style="color:gainsboro; margin-top: 50px; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,system-ui,Helvetica,Arial,sans-serif;; font-size: larger;"><b>Stats</b></h5>
+                   <img class="stats" src="images/stats.png" alt="stats">
+                   <table class="table table-hover table-dark" style="background-color: rgb(39, 39, 39); padding-top: 200px;">
+                       <tr>
+                           <th style="font-weight: bolder; font-size: large; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(12, 167, 12);">Rapid</th>
+                           <th style="font-weight: bolder; font-size: large; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color:gainsboro ;">592</th>
+                       </tr>
+                       <tr>
+                           <td style="color: gainsboro;">Last 30 Days</td>
+                           <td style="font-weight: bolder; color: rgb(12, 167, 12);">&uarr;139</td>
+                       </tr>
+                       <tr>
+                           <td style="color: gainsboro;">Highest</td>
+                           <td style="font-weight: bolder; color:rgb(12, 167, 12);">800 <b style="color:gainsboro">(Nov 11, 2021)</b><td>
+                       </tr>
+                       <tr>
+                           <td style="color: gainsboro;">Games</td>
+                           <td style="font-weight: bolder; color: gainsboro;">339</td> 
+                       </tr>
+                       <tr>
+                           <td style="color: gainsboro;">W/L/D</td>
+                           <td style="font-weight: bolder; color:rgb(12, 167, 12);"><b style="color: rgb(13, 172, 13);">143 W&nbsp;</b><b style="color:red;">169 L&nbsp;</b><b style="color:gainsboro">27 D</b></td>
+                       </tr>
+                       <tr style="color: gainsboro;font-family: -apple-system,BlinkMacSystemFont,Segoe UI,system-ui,Helvetica,Arial,sans-serif;">
+                           <td>Games</td>
+                           <td>344</td>
+                       </tr>
+                       <tr style="color: gainsboro;font-family:  -apple-system,BlinkMacSystemFont,Segoe UI,system-ui,Helvetica,Arial,sans-serif;">
+                           <td>Puzzle</td>
+                           <td>7</td>
+                       </tr>
+                       <tr style="color: gainsboro;font-family:  -apple-system,BlinkMacSystemFont,Segoe UI,system-ui,Helvetica,Arial,sans-serif;">
+                           <td>Rapid</td>
+                           <td>575</td>
+                       </tr>
+                   </table>
+               </div>
+               <div class="col-lg-3 col-sm-12">
                     <div class="profile">
                         <img class="profImg" src="images/profile.png" alt="profile">
                         <div class="flex4">

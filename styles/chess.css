@@ -2,15 +2,7 @@
     padding: 0 !important;
     margin: 0 !important;
  }
- .flex1{
-    display: flex;
-    flex-direction: row;
- }
- .flex2{
-    display: flex;
-    flex-direction: column;
- }
- .flex3{
+  .flex1{
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -23,63 +15,23 @@
     color: gainsboro;
 }
 .logo{
-    width: 120px;    
+    width: 90px;
+    padding-top: 10px;
+}
+.options{
+    margin-top: 10px;
 }
 .sidebarText{
-    color: white;
-    font-family:  -apple-system, BlinkMacSystemFont,Segoe UI,system-ui,Helvetica,Arial,sans-serif;
-    font-weight:700; 
-    padding-top: 20px;
-    margin-top: 5px;
+    color: gainsboro;
+    margin-top: 8px;
     margin-left: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: small;
 }
-.home{
-    width: 40px;
-    height: 55px;
-    padding-top: 20px;
-}
-.play{
-    width: 40px;
-    height: 55px;
-    padding-top: 20px;
-}
-.puzzle{
-    width: 40px;
-    height: 55px;
-    padding-top: 20px;
-}
-.learn{
-    width: 40px;
-    height: 55px;
-    padding-top: 20px;
-}
-.today{
-    width: 40px;
-    height: 55px;
-    padding-top: 20px;
-}
-.play{
-    width: 40px;
-    height: 55px;
-    padding-top: 20px;
-}
-.more{
-    width: 40px;
-    height: 55px;
-    padding-top: 20px;
-}
-.connect{
-    width: 40px;
-    height: 55px;
-    padding-top: 20px;
-}
-.trial{
-    width: 120px;
-    height: 60px;
-    padding-top: 5px;
-}
-.search input{
-    width: 20px;
+.sidebarImg{
+    height: 30px;
+    aspect-ratio: 1/1;
 }
 .iconText{
     color: gainsboro;
@@ -89,27 +41,27 @@
     padding-top: 10px;
 }
 .playButton{
-    background-color: rgb(32, 32, 32);
-    width: 120px;
-    height: 120px;
+    background-color: rgb(39, 37, 34);
+    width: 100px;
+    height: 100px;
     margin-top: 20px;
 }
 .puzzleButton{
-    background-color: rgb(32, 32, 32);
-    width:120px;
-    height:120px;
+    background-color: rgb(39, 37, 34);
+    width:100px;
+    height:100px;
     margin-top: 20px;
 }
 .lessonButton{
-    background-color: rgb(32, 32, 32);
-    width: 120px;
-    height: 120px;
+    background-color: rgb(39, 37, 34);
+    width: 100px;
+    height: 100px;
     margin-top: 20px;
 }
 .compButton{
-    background-color: rgb(32, 32, 32);
-    width: 120x;
-    height: 120px;
+    background-color: rgb(39, 37, 34);
+    width: 100x;
+    height: 100px;
     margin-top: 20px;
 }
 th{
@@ -169,4 +121,23 @@ hr.break{
 }
 .table>statTable{
     background-color: rgb(41, 40, 40);
+}
+@media all and (max-width: 600px){
+    .flex1{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        gap: 1px;
+        margin: auto;
+    }
+    .iconText{
+        font-size:large;
+        font-weight: 700;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+    }
 }
