@@ -64,6 +64,9 @@
     height: 100px;
     margin-top: 20px;
 }
+.subtexts{
+    display: none;
+}
 th{
     font-size: smaller;
 }
@@ -131,13 +134,46 @@ hr.break{
         margin: auto;
     }
     .iconText{
-        font-size:large;
-        font-weight: 700;
-        margin-top: 40px;
+        font-size:x-large;
+        font-weight:900px;
         margin-left: 10px;
+        margin-top: 20px;
     }
     .buttons{
         display: flex;
         flex-direction: row;
+        background-color: rgb(134, 169, 75);
+        border-radius: 10px;
+    }
+    .subtexts{
+        display: contents;
+        color: gainsboro;
+        margin-top: 60px;
+        margin-right: 40px;
+    }
+    .playButton{
+        background-color: rgb(134, 169, 75);
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    .puzzleButton{
+        background-color: rgb(134, 169, 75);
+        width:100px;
+        height:100px;
+        margin-top: 20px;
+    }
+    .lessonButton{
+        background-color: rgb(134, 169, 75);
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        border-radius: 30px;
+    }
+    .compButton{
+        background-color: rgb(134, 169, 75);
+        width: 100x;
+        height: 100px;
+        margin-top: 20px;
     }
 }
