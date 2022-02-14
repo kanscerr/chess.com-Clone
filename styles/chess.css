@@ -142,8 +142,7 @@ hr.break{
     .buttons{
         display: flex;
         flex-direction: row;
-        background-color: rgb(134, 169, 75);
-        box-shadow:  0px 8px 15px rgba(79, 124, 2, 0.5);
+        background-color: rgb(126, 163, 62);
         border-radius: 10px;
     }
     .subtexts{
@@ -153,28 +152,28 @@ hr.break{
         margin-left: 10px;
     }
     .playButton{
-        background-color: rgb(134, 169, 75);
+        background-color: rgb(126, 163, 62);
         width: 100px;
         height: 100px;
         margin-top: 20px;
         border-radius: 10px;
     }
     .puzzleButton{
-        background-color: rgb(134, 169, 75);
+        background-color: rgb(126, 163, 62);
         width:100px;
         height:100px;
         margin-top: 20px;
         border-radius: 10px;
     }
     .lessonButton{
-        background-color: rgb(134, 169, 75);
+        background-color: rgb(126, 163, 62);
         width: 100px;
         height: 100px;
         margin-top: 20px;
         border-radius: 10px;
     }
     .compButton{
-        background-color: rgb(134, 169, 75);
+        background-color: rgb(126, 163, 62);
         width: 100x;
         height: 100px;
         margin-top: 20px;
