@@ -155,28 +155,28 @@ hr.break{
         background-color: rgb(126, 163, 62);
         width: 100px;
         height: 100px;
-        margin-top: 20px;
+        margin-top: 10px;
         border-radius: 10px;
     }
     .puzzleButton{
         background-color: rgb(126, 163, 62);
         width:100px;
         height:100px;
-        margin-top: 20px;
+        margin-top: 10px;
         border-radius: 10px;
     }
     .lessonButton{
         background-color: rgb(126, 163, 62);
         width: 100px;
         height: 100px;
-        margin-top: 20px;
+        margin-top: 10px;
         border-radius: 10px;
     }
     .compButton{
         background-color: rgb(126, 163, 62);
         width: 100x;
         height: 100px;
-        margin-top: 20px;
+        margin-top: 10px;
         border-radius: 10px;
     }
 }
