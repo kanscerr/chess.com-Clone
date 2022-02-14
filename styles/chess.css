@@ -149,7 +149,11 @@ hr.break{
         display: contents;
         color: gainsboro;
         margin-top: 60px;
-        margin-right: 40px;
+        margin-left: 10px;
+    }
+    .buttons{
+        background-color: rgb(134, 169, 75);
+        box-shadow:  0px 8px 15px rgba(79, 124, 2, 0.5);;
     }
     .playButton{
         background-color: rgb(134, 169, 75);
@@ -168,7 +172,6 @@ hr.break{
         width: 100px;
         height: 100px;
         margin-top: 20px;
-        border-radius: 30px;
     }
     .compButton{
         background-color: rgb(134, 169, 75);
