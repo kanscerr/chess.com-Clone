@@ -117,6 +117,9 @@ hr.break{
     height: 50px;
     margin-left: 20px;
 }
+.buttons{
+    box-shadow: 5px 5px 5px black;
+}
 .btn{
     color: gainsboro;
     margin-top: 20px;
@@ -132,48 +135,49 @@ hr.break{
         width: 320px;
         gap: 1px;
         margin: auto;
+        margin-top: 30px;
     }
     .iconText{
         font-size:x-large;
         font-weight:800px;
         margin-left: 10px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .buttons{
         display: flex;
         flex-direction: row;
-        background-color: rgb(126, 163, 62);
-        border-radius: 10px;
+        box-shadow: 5px 5px 5px black;
     }
     .subtexts{
         display: contents;
+        text-align: center;
         color: gainsboro;
         margin-top: 60px;
         margin-left: 10px;
     }
     .playButton{
-        background-color: rgb(126, 163, 62);
+        background-color: rgb(39, 37, 34);
         width: 100px;
         height: 100px;
         margin-top: 10px;
         border-radius: 10px;
     }
     .puzzleButton{
-        background-color: rgb(126, 163, 62);
+        background-color: rgb(39, 37, 34);
         width:100px;
         height:100px;
         margin-top: 10px;
         border-radius: 10px;
     }
     .lessonButton{
-        background-color: rgb(126, 163, 62);
+        background-color: rgb(39, 37, 34);
         width: 100px;
         height: 100px;
         margin-top: 10px;
         border-radius: 10px;
     }
     .compButton{
-        background-color: rgb(126, 163, 62);
+        background-color: rgb(39, 37, 34);
         width: 100x;
         height: 100px;
         margin-top: 10px;
